@@ -19,13 +19,13 @@ html {
         
         overflow: none;
 
-        color: $color;
+        color: $text;
         font-family: 'JetBrains Mono', Arial, Helvetica, sans-serif;
         font-language-override: normal;
         font-kerning: auto;
         font-feature-settings: 'kern', 'liga', 'dlig', 'hlig', 'cswh';
         font-synthesis: weight style;
-        font-size: $font-size;
+        font-size: $font_size;
     
         main {
             box-sizing: border-box;
@@ -34,7 +34,7 @@ html {
         
             background-color: $foreground;
         
-            border-radius: $border-radius;
+            border-radius: $border_radius;
 
             display: flex;
             flex-direction: column;

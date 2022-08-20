@@ -2,14 +2,15 @@
 ---
 
 // general variables
-$border-radius: 10px;
-$font-size: 1em;
+$border_radius: 10px;
+$font_size: 1em;
 
 // color variables
 $background: rgb(20, 20, 20);
 $foreground: rgb(30, 30, 30);
 $accent: rgb(40, 40, 40);
-$color: rgb(251, 251, 254);
+$text: rgb(251, 251, 254);
+$alt_text: rgb(100, 100, 100);
 
 @import 'base';
 @import 'font';
