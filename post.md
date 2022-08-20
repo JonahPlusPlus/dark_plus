@@ -1,6 +1,7 @@
 ---
 title: Hey!
 layout: post
+post_image: examples/tree.jpg
 ---
 # Post
 
@@ -25,8 +26,3 @@ fn hello() -> u32 {
     42
 }
 ```
-
-{% include heading.html heading="Image" %}
-
-
-![Picture of a tree](examples/tree.jpg)
