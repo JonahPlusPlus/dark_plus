@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+    max-width: 100%;
     
     margin: 0;
     background-color: $background;
@@ -14,6 +15,7 @@ html {
     
         height: 100%;
         width: 100%;
+        max-width: 100%;
         
         margin: 0;
         
@@ -40,7 +42,7 @@ html {
             flex-direction: column;
             flex-grow: 1;
 
-            max-width: 1000px;
+            max-width: min(1000px, 100%);
             margin: 1em auto;
             
             padding: 0em 2em 1em;
