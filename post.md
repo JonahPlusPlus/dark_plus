@@ -24,3 +24,4 @@ fn hello() -> u32 {
     42
 }
 ```
+And some `inline code`.
