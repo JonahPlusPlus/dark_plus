@@ -28,5 +28,4 @@ fn hello() -> u32 {
 
 {% include heading.html heading="Image" %}
 
-
-![Picture of a tree](examples/tree.jpg)
+{% include image.html image="examples/tree.jpg" caption="Picture of a tree" %}

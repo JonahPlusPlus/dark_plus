@@ -1,7 +1,13 @@
-
-img {
-    width: 100%;
-    border-radius: $border_radius;
+figure {
     margin: 0;
-    padding: 0;
+    img {
+        width: 100%;
+        border-radius: $border_radius;
+        margin: 0;
+        padding: 0;
+    }
+    figcaption {
+        text-align: center;
+        color: $alt_text;
+    }
 }

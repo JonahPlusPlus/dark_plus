@@ -1,7 +1,8 @@
 ---
 title: Hey!
 layout: post
-post_image: examples/tree.jpg
+image: examples/tree.jpg
+caption: "Figure 1: A picture of a tree"
 ---
 # Post
 

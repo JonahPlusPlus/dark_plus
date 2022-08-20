@@ -1,0 +1,11 @@
+{% assign image=include.image caption=include.caption %}
+<div>
+{% if include.image and include.image != "" and include.image != nil %}
+    <figure>
+        <img src="{{ include.image }}">
+        {% if include.caption and include.caption != "" and include.caption != nil %}
+        <figcaption>{{ include.caption }}</figcaption>
+        {% endif %}
+    </figure>
+{% endif %}
+</div>
