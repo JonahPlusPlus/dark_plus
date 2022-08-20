@@ -1,0 +1,11 @@
+.heading {
+    padding: 0.5em 0em 0em;
+}
+
+a {
+    color: $color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
