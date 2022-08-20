@@ -68,6 +68,8 @@ html {
 
             #title {
                 font-size: 3em;
+                overflow-wrap: break-word;
+                max-width: 100%;
             }
         }
     }
