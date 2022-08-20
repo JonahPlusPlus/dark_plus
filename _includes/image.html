@@ -2,7 +2,7 @@
 <div>
 {% if include.image and include.image != "" and include.image != nil %}
     <figure>
-        <img src="{{ site.baseurl }}/{{ include.image }}">
+        <img src="{{ include.image }}">
         {% if include.caption and include.caption != "" and include.caption != nil %}
         <figcaption>{{ include.caption }}</figcaption>
         {% endif %}
