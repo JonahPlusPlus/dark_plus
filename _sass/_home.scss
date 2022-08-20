@@ -1,0 +1,11 @@
+.post_preview {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    background-color: $accent;
+    border-radius: $border-radius;
+}

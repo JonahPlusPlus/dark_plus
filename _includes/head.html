@@ -1,9 +1,12 @@
+{% assign favicon=site.favicon favicon_type=site.favicon_type %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google" content="notranslate">
     <meta http-equiv="Content-Language" content="en">
-    <link rel="icon" type="image/svg+xml" href="examples/icon.svg">
+    {% if favicon And favicon != "" And favicon != nil %}
+    <link rel="icon" type={{ favicon_type }} href={{ favicon }}>
+    {% endif %}
 
     <title>
         {% if page.title == "Home" %}
