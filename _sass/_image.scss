@@ -3,12 +3,14 @@ figure {
     margin: 0 auto;
     padding: 0 auto;
     img {
+        display: block;
         max-width: 100%;
         border-radius: $border_radius;
         margin: 0 auto;
         padding: 0 auto;
     }
     figcaption {
+        width: 100%;
         text-align: center;
         color: $alt_text;
     }
