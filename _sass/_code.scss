@@ -21,6 +21,12 @@
     }
 }
 
+code {
+    background-color: $accent;
+    border-radius: $border_radius;
+    padding: 1px 5px;
+}
+
 .highlight .hll { background-color: $accent; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
