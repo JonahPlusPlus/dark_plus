@@ -1,0 +1,18 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <link rel="icon" type="image/svg+xml" href="examples/icon.svg">
+
+    <title>
+        {% if page.title == "Home" %}
+            {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+        {% else %}
+            {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
+    </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/theme.css">
+</head>

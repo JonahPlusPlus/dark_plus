@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    width: 100%;
+    
+    margin: 0;
+    background-color: $background;
+
+    overflow: none;
+
+    body {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    
+        height: 100%;
+        width: 100%;
+        
+        margin: 0;
+        
+        overflow: none;
+
+        color: $color;
+        font-family: 'JetBrains Mono', Arial, Helvetica, sans-serif;
+        font-language-override: normal;
+        font-kerning: auto;
+        font-feature-settings: 'kern', 'liga', 'dlig', 'hlig', 'cswh';
+        font-synthesis: weight style;
+        font-size: $font-size;
+    
+        main {
+            box-sizing: border-box;
+            
+            width: calc(100% - 2em);
+        
+            margin-left: 1em;
+            margin-right: 1em;
+            
+            background-color: $foreground;
+        
+            border-radius: $border-radius;
+
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+
+            max-width: 1000px;
+            margin: 1em auto;
+            
+            padding: 0em 1em;
+
+            overflow-y: scroll;
+
+            // scrollbar
+            scrollbar-color: $accent $foreground;
+            scrollbar-width: thin;
+
+            &::-webkit-scrollbar{
+                width: 8px;
+            }
+        
+            &::-webkit-scrollbar-track {
+                background: $foreground;
+            }
+        
+            &::-webkit-scrollbar-thumb {
+                background: $accent;
+            }
+        }
+    }
+}
