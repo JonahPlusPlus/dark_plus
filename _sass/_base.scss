@@ -32,9 +32,6 @@ html {
             
             width: calc(100% - 2em);
         
-            margin-left: 1em;
-            margin-right: 1em;
-            
             background-color: $foreground;
         
             border-radius: $border-radius;
@@ -46,7 +43,7 @@ html {
             max-width: 1000px;
             margin: 1em auto;
             
-            padding: 0em 1em;
+            padding: 0em 3em;
 
             overflow-y: scroll;
 
