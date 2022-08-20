@@ -1,7 +1,12 @@
----
-layout: default
----
-
-{{ content }}
-
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
+    {% include head.html %}
+    <body>
+        <article>
+            <h1 id="title">{{ page.title }}</h1>
+            {% include image.html image=page.image caption=page.caption %}
+            {{ content }}
+        </article>
+    </body>
+</html>
 
