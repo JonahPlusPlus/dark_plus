@@ -2,10 +2,9 @@
 <html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
     {% include head.html %}
     <body>
-        <header>
-            <h1>{{ page.title }}</h1>
-        </header>
         <article>
+            <h1 id="title">{{ page.title }}</h1>
+
             {{ content }}
         </article>
     </body>
