@@ -7,6 +7,7 @@ html {
     background-color: $background;
 
     overflow: none;
+    overflow-wrap: break-word;
 
     body {
         display: flex;
