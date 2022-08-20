@@ -1,9 +1,8 @@
 ---
-title: Hey!
+title: Post
 layout: post
 layout: post
 ---
-# Post
 
 Accusantium cumque ullam repudiandae et delectus dolorem. Labore numquam blanditiis neque qui quo minus. Similique libero dignissimos voluptas perspiciatis dolore facilis. Cupiditate perferendis vel aut excepturi quidem cupiditate quibusdam.
 
