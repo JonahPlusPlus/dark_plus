@@ -8,13 +8,19 @@ $font_size: 1em;
 // color variables
 $background: rgb(20, 20, 20);
 $foreground: rgb(30, 30, 30);
-$accent: rgb(40, 40, 40);
+$overlay: rgb(40, 40, 40);
+{% if site.accent and site.accent != "" and site.accent != nil %}
+$accent: {{ site.accent }};
+{% else %}
+$accent: #04AA6D;
+{% endif %}
 $text: rgb(251, 251, 254);
 $alt_text: rgb(150, 150, 150);
 
 @import 'base';
 @import 'font';
 @import 'text';
+@import 'navbar';
 @import 'code';
 @import 'image';
 

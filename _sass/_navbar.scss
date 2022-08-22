@@ -1,0 +1,55 @@
+nav {
+    background-color: $foreground;
+    overflow: hidden;
+    flex-grow: 1;
+    height: 100%;
+    a {
+        float: left;
+        display: block;
+        text-align: center;
+        height: 100%;
+        &:hover {
+            background-color: $overlay;
+        }
+        &.navbar-icon {
+            display: none;
+        }
+        img {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+.navbar-active {
+    background-color: $accent;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        a:not(:first-child) {
+            display: none;
+            &.navbar-icon {
+                float: right;
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav.responsive {
+        position: relative;
+        a {
+            float: none;
+            display: block;
+            text-align: left;
+            &.navbar-icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}

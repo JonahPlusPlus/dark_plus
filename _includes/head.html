@@ -1,11 +1,10 @@
-{% assign favicon=site.favicon favicon_type=site.favicon_type %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google" content="notranslate">
     <meta http-equiv="Content-Language" content="en">
-    {% if favicon And favicon != "" And favicon != nil %}
-    <link rel="icon" type="{{ favicon_type }}" href="{{ favicon }}">
+    {% if site.favicon.path and site.favicon.path != "" and site.favicon.path != nil %}
+    <link rel="icon" type="{{ site.favicon.type }}" href="{{ site.favicon.path }}">
     {% endif %}
 
     <title>

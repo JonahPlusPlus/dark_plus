@@ -1,0 +1,10 @@
+title: Dark+
+description: >- 
+  A dark theme for Jekyll
+github_username:  JonahPlusPlus
+favicon:
+  path: /examples/tree.jpg
+  type: image/jpg
+nav:
+  - about: /about/
+  - nowhere: /404/

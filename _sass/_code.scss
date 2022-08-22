@@ -7,7 +7,7 @@
     padding: 8px 12px;
     overflow-x: auto;
 
-    background-color: $accent;
+    background-color: $overlay;
     border-radius: $border_radius;
 
     code {    
@@ -22,12 +22,12 @@
 }
 
 code {
-    background-color: $accent;
+    background-color: $overlay;
     border-radius: 2px;
     padding: 1px 5px;
 }
 
-.highlight .hll { background-color: $accent; }
+.highlight .hll { background-color: $overlay; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */

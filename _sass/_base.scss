@@ -51,7 +51,7 @@ html {
             overflow-y: scroll;
 
             // scrollbar
-            scrollbar-color: $accent $foreground;
+            scrollbar-color: $overlay $foreground;
             scrollbar-width: thin;
 
             &::-webkit-scrollbar{
@@ -63,7 +63,7 @@ html {
             }
         
             &::-webkit-scrollbar-thumb {
-                background: $accent;
+                background: $overlay;
             }
 
             #title {
